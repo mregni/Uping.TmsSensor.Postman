@@ -143,7 +143,20 @@
 		},
 		{
 			"name": "Tenant",
-			"item": [],
+			"item": [
+				{
+					"name": "Get Tenant Info",
+					"id": "330cea1a-63fd-453a-9663-3a419ccd7e8c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "8671b3c2-0b1c-42a9-8511-34b6a616721b"
 		}
 	],
@@ -196,25 +209,25 @@
 	],
 	"variable": [
 		{
-			"id": "274b735e-33ed-4ff6-9a7d-2020ffdd0ccf",
+			"id": "10e51c54-982c-4dc1-9a77-cf1282d0caef",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "ffe95497-99ec-4147-85c7-e89cfa03331a",
+			"id": "6f8f1818-31b1-48c4-a87b-2ebd5436ad0b",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "2d0c308f-ebe3-4ce1-af44-6fa58cb6b1d7",
+			"id": "6a508f00-b456-48ad-9615-b411f7dac038",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "aa68cb1e-c870-46b1-925f-7d075ec768cc",
+			"id": "cd01379c-3941-4a50-9839-a774103265d1",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
