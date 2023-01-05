@@ -157,7 +157,7 @@
 					"response": [
 						{
 							"id": "e6039ed2-49e6-4404-8b9e-3e52445b11a6",
-							"name": "Get Tenant Info",
+							"name": "Get Info",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -308,25 +308,25 @@
 	],
 	"variable": [
 		{
-			"id": "f53f031b-80e3-4b4f-92fb-7c4f741013f3",
+			"id": "ddc6a4e8-c7e1-4cf1-afcc-304dca7348d5",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "f15c1de5-226f-4adb-8e74-83b8daf79e95",
+			"id": "9c7a9209-ceeb-47d4-bb84-36915357ff13",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "f40a0be0-f49d-4010-b5c5-2ea3a5e9d75d",
+			"id": "d01d45f5-4d6c-4b35-bfb3-e39ea7958a73",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "4c9f0d10-aea6-4cbc-860a-c3261bb4fbb8",
+			"id": "58d07363-849b-4699-983c-137b1cf01001",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
