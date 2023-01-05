@@ -266,7 +266,7 @@
 						},
 						{
 							"id": "9b38f84f-38c7-47ef-857e-282d825e20da",
-							"name": "Get Sensors",
+							"name": "Get Today Active Sensors",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -513,25 +513,25 @@
 	],
 	"variable": [
 		{
-			"id": "a0a569ba-d5c1-43ff-aacb-6d8c2056bdb2",
+			"id": "d1f4c1f4-f1df-4b3c-9978-425aa8373b8a",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "7fb8fcdc-2250-497d-8af8-ca68eacc069e",
+			"id": "16c9bff5-e46d-4c39-9967-3c0376b6dce1",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "5fdbd71c-baad-4dc5-84b5-c76c798e8dbc",
+			"id": "efd39fdd-a4cf-4213-8336-6437fb9c5b6f",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "a106d1b0-8d73-4cd8-9aa6-d6c5f6e008e5",
+			"id": "46a57ae4-aac5-41d9-821c-18584e763551",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
