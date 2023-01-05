@@ -157,7 +157,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Update Tenant Info",
 					"id": "84c84c0d-af62-4e6d-a1d8-2a70e727d5c5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -221,25 +221,25 @@
 	],
 	"variable": [
 		{
-			"id": "8195ddde-c7c5-4128-814f-0c4d545cf2b1",
+			"id": "6a9c93e0-9595-4fb4-824c-c4d90d2bc572",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "d991ec1b-4cdc-4ab2-a8e7-e7fe34864d31",
+			"id": "5cdc23f6-1bee-42a0-8482-b68ec707fc92",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "c3f67826-97d6-4195-b161-fb4880da0bbd",
+			"id": "52a85f52-03a6-44c9-8c68-da889d11ce7b",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "b800f489-4ca7-4842-8242-723d625e7ef6",
+			"id": "644b97d4-1989-4fc6-a681-8f18e1ed74c0",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
