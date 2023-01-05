@@ -2,75 +2,13 @@
 	"info": {
 		"_postman_id": "c95aee5b-a435-4323-b1d1-5eb85a1c20ce",
 		"name": "TmsSensors",
-		"description": "**TMS Sensors API**\n\nThis collection is made so you can call the TMS sensors api easily.",
+		"description": "**TMS Sensors API**\n\nThis collection is made so you can call the TMS sensors api easily.\n\nTest",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
 			"name": "Sensors",
 			"item": [
-				{
-					"name": "Get Token",
-					"id": "17cc5e61-1253-4419-89b5-f187d2fe1440",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "x-username",
-								"value": "",
-								"type": "text",
-								"description": "Auth0 username"
-							},
-							{
-								"key": "x-password",
-								"value": "",
-								"type": "text",
-								"description": "Auth0 password"
-							}
-						],
-						"url": "{{BASE_URL}}/login"
-					},
-					"response": [
-						{
-							"id": "056cc077-28ed-4b94-9bd9-9b08f31f4f39",
-							"name": "Get Token",
-							"originalRequest": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "x-username",
-										"value": "john.smith@example.com",
-										"type": "text",
-										"description": "Auth0 username"
-									},
-									{
-										"key": "x-password",
-										"value": "Str0ngP8ssw0rd!",
-										"type": "text",
-										"description": "Auth0 password"
-									}
-								],
-								"url": "{{BASE_URL}}/login"
-							},
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Content-Type",
-									"name": "Content-Type",
-									"value": "application/json",
-									"description": "",
-									"type": "text"
-								}
-							],
-							"cookie": [],
-							"responseTime": null,
-							"body": "{\n    \"access_token\": \"eyJhbGciOiJSUzI1NiIsInR...\",\n    \"expires_in\": 86400,\n    \"token_type\": \"Bearer\"\n}"
-						}
-					]
-				},
 				{
 					"name": "Get Sensor",
 					"id": "188249c6-313b-4f5b-a0da-cc11594bffbd",
@@ -627,6 +565,68 @@
 				}
 			],
 			"id": "8671b3c2-0b1c-42a9-8511-34b6a616721b"
+		},
+		{
+			"name": "Get Token",
+			"id": "17cc5e61-1253-4419-89b5-f187d2fe1440",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-username",
+						"value": "",
+						"type": "text",
+						"description": "Auth0 username"
+					},
+					{
+						"key": "x-password",
+						"value": "",
+						"type": "text",
+						"description": "Auth0 password"
+					}
+				],
+				"url": "{{BASE_URL}}/login"
+			},
+			"response": [
+				{
+					"id": "056cc077-28ed-4b94-9bd9-9b08f31f4f39",
+					"name": "Get Token",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-username",
+								"value": "john.smith@example.com",
+								"type": "text",
+								"description": "Auth0 username"
+							},
+							{
+								"key": "x-password",
+								"value": "Str0ngP8ssw0rd!",
+								"type": "text",
+								"description": "Auth0 password"
+							}
+						],
+						"url": "{{BASE_URL}}/login"
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"access_token\": \"eyJhbGciOiJSUzI1NiIsInR...\",\n    \"expires_in\": 86400,\n    \"token_type\": \"Bearer\"\n}"
+				}
+			]
 		}
 	],
 	"auth": {
@@ -678,25 +678,25 @@
 	],
 	"variable": [
 		{
-			"id": "c60e4b09-eae0-46e0-956a-8b21d35633c6",
+			"id": "49e9fd78-cef8-482b-a47c-7762944f3bea",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "34cd505e-0270-43a4-b051-7e1d365d4e9c",
+			"id": "99fff8d5-4868-4445-bdc3-9097d5e86db6",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "6ad19848-55d1-40de-a1a5-db96f338ed94",
+			"id": "cc0b70e8-bb75-45ce-a94b-f1ca9c379372",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "32180987-37ef-4b16-9489-d25c37a095d1",
+			"id": "2da846b0-914f-4513-ac81-8a0b48aa11ea",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
