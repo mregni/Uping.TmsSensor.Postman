@@ -266,12 +266,12 @@
 						},
 						{
 							"id": "9b38f84f-38c7-47ef-857e-282d825e20da",
-							"name": "Get Today Active Sensors",
+							"name": "Get Sensors",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{BASE_URL}}/sensors",
+									"raw": "{{BASE_URL}}/sensors?active=true",
 									"host": [
 										"{{BASE_URL}}"
 									],
@@ -281,8 +281,7 @@
 									"query": [
 										{
 											"key": "active",
-											"value": "",
-											"disabled": true
+											"value": "true"
 										},
 										{
 											"key": "date",
@@ -293,11 +292,19 @@
 									]
 								}
 							},
-							"_postman_previewlanguage": null,
-							"header": null,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"name": "Content-Type",
+									"value": "application/json",
+									"description": "",
+									"type": "text"
+								}
+							],
 							"cookie": [],
 							"responseTime": null,
-							"body": null
+							"body": "[\n    {\n        \"id\": 3,\n        \"tenantId\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n        \"projectId\": 2,\n        \"metaDataId\": null,\n        \"from\": \"2023-01-01T00:00:00\",\n        \"until\": \"2023-04-03T00:00:00\",\n        \"broken\": false,\n        \"longitude\": 3.347107,\n        \"latitude\": 50.15967,\n        \"tmsId\": 97357381,\n        \"name\": \"Second sensor\",\n        \"soilType\": 0,\n        \"isActive\": true\n    },\n    {\n        \"id\": 4,\n        \"tenantId\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n        \"projectId\": 2,\n        \"metaDataId\": null,\n        \"from\": \"2021-01-03T00:00:00\",\n        \"until\": null,\n        \"broken\": false,\n        \"longitude\": 4.397107,\n        \"latitude\": 51.15967,\n        \"tmsId\": 97357390,\n        \"name\": \"Sensor tenant C\",\n        \"soilType\": 0,\n        \"isActive\": true\n    }\n]"
 						}
 					]
 				},
@@ -513,25 +520,25 @@
 	],
 	"variable": [
 		{
-			"id": "ecc56592-d516-428f-9c67-b06fc737b575",
+			"id": "8b9d7953-f739-4d65-8851-a6524e8d1da5",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "3d9aee17-27d9-4b06-87f1-07b575329acd",
+			"id": "ee087263-d0b1-4f31-aa68-9185a6d687af",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "c97df6fb-cb10-4ad8-8c80-c6e07048fd18",
+			"id": "5e9d3ada-1e44-4941-89a2-e90feee93384",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "80808d0e-4350-43cd-9a2c-59e9fa8c36f2",
+			"id": "a54ca486-d048-446f-a49a-41e2855d46a9",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
