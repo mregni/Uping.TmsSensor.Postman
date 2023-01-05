@@ -167,7 +167,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\r\n    \"name\": \"TestUping3\",\r\n    \"firstName\": \"Mikhaël2\"\r\n}",
+							"raw": "{\r\n    \"name\": \"\",\r\n    \"firstName\": \"\",\r\n    \"lastName\": \"\",\r\n    \"email\": \"\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -231,25 +231,25 @@
 	],
 	"variable": [
 		{
-			"id": "7efdcfaa-39ca-4051-876e-86971094ee65",
+			"id": "11b103cc-d165-42df-bbae-4139cf9353eb",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "e7154f59-cbca-401c-a50b-ab6c8f0577f3",
+			"id": "405b999a-cdb8-44e9-b71a-720affb134cd",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "5d0edf2c-e036-4691-8526-1df84fc0892e",
+			"id": "487c3c86-9dfb-4af0-b608-fcbc1c93ad71",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "4fd08e99-94f3-40e1-8026-04965d22e334",
+			"id": "48e776fc-d88a-4947-9ffe-4805e2601373",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
