@@ -319,7 +319,8 @@
 									"description": "Id of the sensor that is requested"
 								}
 							]
-						}
+						},
+						"description": "Get the values of a specific sensor for a date range. If no date range is supplied the endpoint will return data from the last month."
 					},
 					"response": [
 						{
@@ -684,25 +685,25 @@
 	],
 	"variable": [
 		{
-			"id": "9f0b3eea-035e-4d91-91a9-34c7ffc3c452",
+			"id": "a9d9a870-572a-4540-bece-c9a0791aa00b",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "6ddc9cee-ee68-4f22-a30a-5e4ef0432158",
+			"id": "ed78c393-10f6-4766-8763-95039fdfd9c3",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "ca743c80-def2-41a8-a434-f4bf33f20be1",
+			"id": "f91833bf-d292-4073-8c86-ec656ece635b",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "09a52f4e-4233-433d-b2d6-21ec5937a562",
+			"id": "76253476-df4c-42d2-a8e6-9aaa8cf0cd48",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
