@@ -226,7 +226,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{BASE_URL}}/sensors?active=&date=",
+									"raw": "{{BASE_URL}}/sensors",
 									"host": [
 										"{{BASE_URL}}"
 									],
@@ -236,21 +236,31 @@
 									"query": [
 										{
 											"key": "active",
-											"value": ""
+											"value": "",
+											"disabled": true
 										},
 										{
 											"key": "date",
 											"value": "",
-											"description": "On what date do you want to fetch all active sensors. This is only mandatory if active=true. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ..."
+											"description": "On what date do you want to fetch all active sensors. This is only mandatory if active=true. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ...",
+											"disabled": true
 										}
 									]
 								}
 							},
-							"_postman_previewlanguage": null,
-							"header": null,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"name": "Content-Type",
+									"value": "application/json",
+									"description": "",
+									"type": "text"
+								}
+							],
 							"cookie": [],
 							"responseTime": null,
-							"body": null
+							"body": "[\n    {\n        \"id\": 3,\n        \"tenantId\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n        \"projectId\": 2,\n        \"metaDataId\": null,\n        \"from\": \"2023-01-01T00:00:00\",\n        \"until\": \"2023-04-03T00:00:00\",\n        \"broken\": false,\n        \"longitude\": 4.397107,\n        \"latitude\": 51.15967,\n        \"tmsId\": 97357381,\n        \"name\": \"Second sensor\",\n        \"soilType\": 0,\n        \"isActive\": true\n    },\n    {\n        \"id\": 4,\n        \"tenantId\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n        \"projectId\": 2,\n        \"metaDataId\": null,\n        \"from\": \"2021-01-03T00:00:00\",\n        \"until\": null,\n        \"broken\": false,\n        \"longitude\": 3.347107,\n        \"latitude\": 50.15967,\n        \"tmsId\": 97357390,\n        \"name\": \"Sensor tenant C\",\n        \"soilType\": 0,\n        \"isActive\": true\n    }\n]"
 						}
 					]
 				},
@@ -466,25 +476,25 @@
 	],
 	"variable": [
 		{
-			"id": "95405b3b-5e25-4c78-93c9-44dfc1f75e42",
+			"id": "df181529-378f-45e6-8613-5341a63d5153",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "162ab87b-1549-40a4-a538-df32f6cb0fee",
+			"id": "f139c854-c505-471d-b9a8-6eba469720fc",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "621aabab-3e2d-439b-9b21-2cc477344f24",
+			"id": "63ad09be-8e04-498f-8ce2-50e6cf6cc336",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "902fd085-c6bf-44c4-8a79-8b76bbe3e211",
+			"id": "c11eede6-20c3-433b-ba06-c59b4a589dac",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
