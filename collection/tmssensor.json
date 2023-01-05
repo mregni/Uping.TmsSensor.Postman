@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "New Folder",
+			"name": "Sensors",
 			"item": [],
 			"id": "68edc63c-8cc1-4961-b1b3-9a03fd6f306a"
 		},
@@ -190,25 +190,25 @@
 	],
 	"variable": [
 		{
-			"id": "05ca1006-4c9c-410d-90b9-23d77a475566",
+			"id": "9702dd8d-44cc-4046-99e2-761c73bdf93e",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "e867db1d-fdce-45c2-b235-d95423e08e3c",
+			"id": "009f4ff4-b151-49a4-8547-9507653d6590",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "d7ae265c-a748-41ca-8509-91254b27a437",
+			"id": "0b8dabf6-7837-4459-b6d8-dbe740208b65",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "a61f3915-765a-40b5-8130-71dd9d818e9a",
+			"id": "2eb5bc06-ca38-4343-97b8-83b46b13ef5e",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
