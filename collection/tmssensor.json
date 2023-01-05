@@ -382,7 +382,7 @@
 					"response": [
 						{
 							"id": "664ae2ad-b1c9-4dd1-a772-ebbd87d6752e",
-							"name": "Get Sensor Values",
+							"name": "Get Values For Last Month",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -616,25 +616,25 @@
 	],
 	"variable": [
 		{
-			"id": "6c42382d-607c-4144-8bba-8d3e84a9fb75",
+			"id": "3427b6c6-7a95-47c2-b5df-f9292f60dd33",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "05a18684-c719-45b9-beae-fbb1ba3c7de5",
+			"id": "a08cca0d-f37d-439b-9804-ed7280393a9d",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "b8dc4a54-8246-4624-a621-6bac9ab6d5a4",
+			"id": "10d5b135-7ecc-4f84-81d6-fdec669e5423",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "27a4dfe5-3e21-4795-9b7b-dd8b08b24c8b",
+			"id": "6b28d68c-803c-45bd-814f-6470b7745149",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
