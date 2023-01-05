@@ -235,7 +235,7 @@
 									],
 									"query": [
 										{
-											"key": "active",
+											"key": "onlyActive",
 											"value": "",
 											"disabled": true
 										},
@@ -551,25 +551,25 @@
 	],
 	"variable": [
 		{
-			"id": "9aa4e093-ee2f-4943-9c33-4ce96b94b2e1",
+			"id": "c73d710a-641f-45d7-b6c1-0cd98de006db",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "34bcd798-8b8e-4a94-aee9-b53a4f19fc64",
+			"id": "72371a1d-1d39-4d47-beea-9980dcc4d65d",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "887138f5-d4c9-4d08-9c9a-4ca0543be5dd",
+			"id": "e9cbc0c3-42a1-4f65-a994-9ef855f6768a",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "8d980f35-8144-49d5-a75c-d928d8ab0769",
+			"id": "48ee89ec-21d1-4d2e-97de-3022679e602c",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
