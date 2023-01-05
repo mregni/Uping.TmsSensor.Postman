@@ -59,7 +59,7 @@
 							"header": null,
 							"cookie": [],
 							"responseTime": null,
-							"body": null
+							"body": "{\r\n    \"access_token\": \"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InVwMjVDaWRSa2hnclBiWmZoaXpQVyJ9.eyJ0ZW5hbnQiOiJDN0E2NkVBQy0zQzkzLTRFNTEtQjM0RS0yNkI0ODVBMTAwNzUiLCJ1c2VyUm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl0sImlzcyI6Imh0dHBzOi8vZGV2LXVwaW5nLmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2M2FjNzIyNzNhOTVkNTE3ZWZkODdlMzUiLCJhdWQiOiJodHRwczovL2Rldi10bXNldW4tZnVuYy5henVyZXdlYnNpdGVzLm5ldCIsImlhdCI6MTY3MjkyNjY4NiwiZXhwIjoxNjczMDEzMDg2LCJhenAiOiJ5cmhqeFZFTDllRnM2VTd1cFpLVzliVzdlYkhSRXJKNyIsImd0eSI6InBhc3N3b3JkIn0.LSz-EEcunXqP_-sIbVf5TA2-sW48RtvYTnRbYg-0An3m7qnFkqr4jnwmydui21BmFZMQAPpVxOBQpyIpt3lBNoPCz0lY-xSiavLir5318G72iP4tGKrM7vgkibkPlLY6csG_0sUAVXqF14QnBoCzeIvSozdqaLu-XeyJZZK11eFCjKdec9pZ_UwkmZjbBJwZ_0aZ_jhZEMMFBeB46py4CjWoRWGHnmGjLtzuEblj-WdI7_TQBdB1i4fNYmKDwsHokQo1JArLexB4VcUIDHKsoJ7IHbIRY76xGPe8BjCc2rJbyBPdI_9lqSSlx2v45pCUMqHDfCmd4zaEamn-zU8utA\",\r\n    \"expires_in\": 86400,\r\n    \"token_type\": \"Bearer\"\r\n}"
 						}
 					]
 				},
@@ -336,25 +336,25 @@
 	],
 	"variable": [
 		{
-			"id": "bdf10711-f05f-4aa4-bb48-c91afdac4fb4",
+			"id": "f8198b78-8dc4-45a3-b3a2-a0d4f64abc28",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "74975fcd-0bb7-46c8-9c5a-7a4e8239f6f4",
+			"id": "aef90a5e-7c13-4e77-8cd9-727c2171f9db",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "89b95a5e-9833-4d9e-bf54-626dc50d092f",
+			"id": "f645942a-8658-4ebe-8f95-f1e05fdd3d4a",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "f9caeb95-cbf8-49cf-8e4f-b2ebd326349f",
+			"id": "38e76377-6106-44c9-92b7-97cce65e46e1",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
