@@ -571,7 +571,8 @@
 					]
 				}
 			],
-			"id": "8671b3c2-0b1c-42a9-8511-34b6a616721b"
+			"id": "8671b3c2-0b1c-42a9-8511-34b6a616721b",
+			"description": "These endpoints manage your tenant information. Only administrators can update the tenant info."
 		},
 		{
 			"name": "Get Token",
@@ -685,25 +686,25 @@
 	],
 	"variable": [
 		{
-			"id": "0af97aa3-9351-4b20-b123-6e8d0dea57bd",
+			"id": "b3ee4a62-660a-4855-8274-4d76f911eb6a",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "b355ae06-00bc-4c72-9baa-5fc3d0d70ea0",
+			"id": "dfc84854-6926-43b7-82f9-01b23995242c",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "72cd55e1-53f2-4aac-88a1-95003e3d4ed4",
+			"id": "98d6af07-0b92-4da3-a406-c87dacc8652d",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "161be9c7-acf7-41ff-ab1a-7f5d087d369c",
+			"id": "e17dc4c0-27f7-419f-9bf3-29a3dd101798",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
