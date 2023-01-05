@@ -306,7 +306,7 @@
 						},
 						{
 							"id": "8389831c-32eb-4355-8000-7b7475384db8",
-							"name": "Get Sensors",
+							"name": "Get Active Sensors On Date",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -551,25 +551,25 @@
 	],
 	"variable": [
 		{
-			"id": "c73d710a-641f-45d7-b6c1-0cd98de006db",
+			"id": "d2326263-e27e-4145-90e5-8bffe2b438c1",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "72371a1d-1d39-4d47-beea-9980dcc4d65d",
+			"id": "6711949d-334a-400e-acbc-65ab6ea15c5c",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "e9cbc0c3-42a1-4f65-a994-9ef855f6768a",
+			"id": "3d315bbf-1b81-4ca9-af4f-cdf6b2ceafd3",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "48ee89ec-21d1-4d2e-97de-3022679e602c",
+			"id": "7af9225e-e1b3-4f55-9202-04d333f25ae2",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
