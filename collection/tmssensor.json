@@ -154,7 +154,41 @@
 						"method": "GET",
 						"header": []
 					},
-					"response": []
+					"response": [
+						{
+							"id": "e6039ed2-49e6-4404-8b9e-3e52445b11a6",
+							"name": "Get Tenant Info",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{BASE_URL}}/tenant"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 05 Jan 2023 13:35:37 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"id\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n    \"name\": \"TestUping\",\n    \"firstName\": \"Mikhaël\",\n    \"lastName\": \"Regni\",\n    \"email\": \"mikhael@uping.be\"\n}"
+						}
+					]
 				},
 				{
 					"name": "Update Tenant Info",
@@ -274,25 +308,25 @@
 	],
 	"variable": [
 		{
-			"id": "7287cec3-e092-4093-8942-dc75ed946814",
+			"id": "060ff9b2-1e2f-435f-8923-bdec064b6c7f",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "efde2a08-4e7a-40a1-8c8b-516da34bacf3",
+			"id": "b71f5ce5-80a3-447e-a931-51525b51662f",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "f78f4b07-b429-4a28-a977-4c1e20483a75",
+			"id": "73ada024-95b5-4b00-83fd-181e5762eece",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "3054d670-be16-4e8b-a955-96cf73e3b6e5",
+			"id": "45cdd673-8f98-441a-bef1-b5b6e37abd3e",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
