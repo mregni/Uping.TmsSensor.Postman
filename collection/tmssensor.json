@@ -157,7 +157,8 @@
 									"disabled": true
 								}
 							]
-						}
+						},
+						"description": "Return a list of sensors. You can request only currently active sensors or specify a date where you want all the active sensors."
 					},
 					"response": [
 						{
@@ -683,25 +684,25 @@
 	],
 	"variable": [
 		{
-			"id": "2e80ad0e-b361-433d-b3da-59256dbeaab5",
+			"id": "9f0b3eea-035e-4d91-91a9-34c7ffc3c452",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "274dd0d2-defb-4f25-b751-03324c87dea4",
+			"id": "6ddc9cee-ee68-4f22-a30a-5e4ef0432158",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "7ce3096e-98db-4e3a-85a6-d9be25938ef6",
+			"id": "ca743c80-def2-41a8-a434-f4bf33f20be1",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "b626e307-3922-492b-a933-5824dd1a75fe",
+			"id": "09a52f4e-4233-433d-b2d6-21ec5937a562",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
