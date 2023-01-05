@@ -8,137 +8,143 @@
 	"item": [
 		{
 			"name": "Sensors",
-			"item": [],
+			"item": [
+				{
+					"name": "Get Token",
+					"id": "17cc5e61-1253-4419-89b5-f187d2fe1440",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-username",
+								"value": "",
+								"type": "text",
+								"description": "Auth0 username"
+							},
+							{
+								"key": "x-password",
+								"value": "",
+								"type": "text",
+								"description": "Auth0 password"
+							}
+						],
+						"url": "{{BASE_URL}}/login"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Sensor",
+					"id": "188249c6-313b-4f5b-a0da-cc11594bffbd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/sensor/:id",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"sensor",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "",
+									"description": "Id of the sensor that is requested"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Sensors",
+					"id": "bf77a33a-5096-4c33-a6ab-ce464cb73f31",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/sensors?active=&date=",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"sensors"
+							],
+							"query": [
+								{
+									"key": "active",
+									"value": ""
+								},
+								{
+									"key": "date",
+									"value": "",
+									"description": "On what date do you want to fetch all active sensors. This is only mandatory if active=true. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ..."
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Sensor Values",
+					"id": "fcbe5daf-5321-45e6-9755-fc14e7c571dc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}/sensor/:id/values?from=&until=",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"sensor",
+								":id",
+								"values"
+							],
+							"query": [
+								{
+									"key": "from",
+									"value": "",
+									"description": "From what date do you want to fetch values. From itself is NOT included in the results (from < value.date). Don't include from if you want to fetch last month of data. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ..."
+								},
+								{
+									"key": "until",
+									"value": "",
+									"description": "Until what date do you want to fetch values. Until itself is included in the results (value.date <= until). Don't include from if you want to fetch last month of data. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ..."
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "",
+									"description": "Id of the sensor that is requested"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
 			"id": "68edc63c-8cc1-4961-b1b3-9a03fd6f306a"
 		},
 		{
-			"name": "Get Token",
-			"id": "17cc5e61-1253-4419-89b5-f187d2fe1440",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [
-					{
-						"key": "x-username",
-						"value": "",
-						"type": "text",
-						"description": "Auth0 username"
-					},
-					{
-						"key": "x-password",
-						"value": "",
-						"type": "text",
-						"description": "Auth0 password"
-					}
-				],
-				"url": "{{BASE_URL}}/login"
-			},
-			"response": []
-		},
-		{
-			"name": "Get Sensor",
-			"id": "188249c6-313b-4f5b-a0da-cc11594bffbd",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "{{BASE_URL}}/sensor/:id",
-					"host": [
-						"{{BASE_URL}}"
-					],
-					"path": [
-						"sensor",
-						":id"
-					],
-					"variable": [
-						{
-							"key": "id",
-							"value": "",
-							"description": "Id of the sensor that is requested"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get Sensor Values",
-			"id": "fcbe5daf-5321-45e6-9755-fc14e7c571dc",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "{{BASE_URL}}/sensor/:id/values?from=&until=",
-					"host": [
-						"{{BASE_URL}}"
-					],
-					"path": [
-						"sensor",
-						":id",
-						"values"
-					],
-					"query": [
-						{
-							"key": "from",
-							"value": "",
-							"description": "From what date do you want to fetch values. From itself is NOT included in the results (from < value.date). Don't include from if you want to fetch last month of data. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ..."
-						},
-						{
-							"key": "until",
-							"value": "",
-							"description": "Until what date do you want to fetch values. Until itself is included in the results (value.date <= until). Don't include from if you want to fetch last month of data. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ..."
-						}
-					],
-					"variable": [
-						{
-							"key": "id",
-							"value": "",
-							"description": "Id of the sensor that is requested"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get Sensors",
-			"id": "bf77a33a-5096-4c33-a6ab-ce464cb73f31",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "{{BASE_URL}}/sensors?active=&date=",
-					"host": [
-						"{{BASE_URL}}"
-					],
-					"path": [
-						"sensors"
-					],
-					"query": [
-						{
-							"key": "active",
-							"value": ""
-						},
-						{
-							"key": "date",
-							"value": "",
-							"description": "On what date do you want to fetch all active sensors. This is only mandatory if active=true. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ..."
-						}
-					]
-				}
-			},
-			"response": []
+			"name": "New Folder",
+			"item": [],
+			"id": "8671b3c2-0b1c-42a9-8511-34b6a616721b"
 		}
 	],
 	"auth": {
@@ -190,25 +196,25 @@
 	],
 	"variable": [
 		{
-			"id": "9702dd8d-44cc-4046-99e2-761c73bdf93e",
+			"id": "9ff702b9-ffea-4cb1-9e05-f6af62e6776c",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "009f4ff4-b151-49a4-8547-9507653d6590",
+			"id": "81253e37-30af-4494-aff6-352449a6219c",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "0b8dabf6-7837-4459-b6d8-dbe740208b65",
+			"id": "257f5590-70a0-4e51-b5f5-501220a714f1",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "2eb5bc06-ca38-4343-97b8-83b46b13ef5e",
+			"id": "ac19f2c9-dbe2-4db6-9514-aabe4f489736",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
