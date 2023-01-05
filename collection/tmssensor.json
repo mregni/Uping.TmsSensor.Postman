@@ -7,6 +7,11 @@
 	},
 	"item": [
 		{
+			"name": "New Folder",
+			"item": [],
+			"id": "68edc63c-8cc1-4961-b1b3-9a03fd6f306a"
+		},
+		{
 			"name": "Get Token",
 			"id": "17cc5e61-1253-4419-89b5-f187d2fe1440",
 			"protocolProfileBehavior": {
@@ -185,25 +190,25 @@
 	],
 	"variable": [
 		{
-			"id": "c3204d8f-fb33-42e5-b7df-23c4953b2aec",
+			"id": "05ca1006-4c9c-410d-90b9-23d77a475566",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "9924ec3b-5770-4359-8268-46f623ad3eee",
+			"id": "e867db1d-fdce-45c2-b235-d95423e08e3c",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "75764f5f-3984-41a2-b6e2-05bd53398903",
+			"id": "d7ae265c-a748-41ca-8509-91254b27a437",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "afa9b851-570b-4fa3-8a13-dcc02bf851bb",
+			"id": "a61f3915-765a-40b5-8130-71dd9d818e9a",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
