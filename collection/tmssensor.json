@@ -287,7 +287,7 @@
 							],
 							"cookie": [],
 							"responseTime": null,
-							"body": "{\n    \"id\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n    \"name\": \"TestUping\",\n    \"firstName\": \"Mikhaël\",\n    \"lastName\": \"Regni\",\n    \"email\": \"mikhael@uping.be\"\n}"
+							"body": "{\n    \"id\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n    \"name\": \"tenant1\",\n    \"firstName\": \"John\",\n    \"lastName\": \"Smith\",\n    \"email\": \"john.smith@example.com\"\n}"
 						}
 					]
 				}
@@ -344,25 +344,25 @@
 	],
 	"variable": [
 		{
-			"id": "31351374-b84b-47f2-b092-c8f69eec02dd",
+			"id": "34dc56b7-b78c-492a-8a37-05de34d7ae2d",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "ad24e5cc-83b8-42f4-b458-fd95fbe94ff1",
+			"id": "28831183-5290-4c8c-a8cd-51c2e37e95b3",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "7ec0f2b4-4d69-4345-a4d7-90a4753fdd6d",
+			"id": "61ddc339-53e5-405f-a9bc-506c3263289c",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "b637c639-09b5-424f-8c55-99057e8092dc",
+			"id": "fe20dc72-2688-4335-975a-421902563933",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
