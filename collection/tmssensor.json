@@ -187,25 +187,25 @@
 	],
 	"variable": [
 		{
-			"id": "ea04cd8d-8a75-4992-bbf1-0e75dddb4f3c",
+			"id": "c392480a-3978-4a01-a3aa-fd3e9c561b46",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "cd6ea305-76b7-455e-8c0e-3874a5707c46",
+			"id": "7fa39934-597a-431e-b7c5-cbbd2e45b451",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "3ec99be9-b379-4b59-9305-1155f7ace7b2",
+			"id": "221b72ca-c253-49c9-af97-07e47416ed5c",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "596f9f95-7f58-492d-a86d-c5e640c20e4c",
+			"id": "017cfa75-360d-4735-9597-c481031fe0d5",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
