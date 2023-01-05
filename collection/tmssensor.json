@@ -218,7 +218,41 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"id": "52659913-e776-4a46-8a6e-895177e3814f",
+							"name": "Get Sensors",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/sensors?active=&date=",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"sensors"
+									],
+									"query": [
+										{
+											"key": "active",
+											"value": ""
+										},
+										{
+											"key": "date",
+											"value": "",
+											"description": "On what date do you want to fetch all active sensors. This is only mandatory if active=true. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ..."
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"responseTime": null,
+							"body": null
+						}
+					]
 				},
 				{
 					"name": "Get Sensor Values",
@@ -432,25 +466,25 @@
 	],
 	"variable": [
 		{
-			"id": "c627c5e7-7d13-47c8-8b5a-ac58ac069020",
+			"id": "f5971dd4-d680-4465-8c82-cccef3e2e028",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "61730663-3e72-4877-a0dc-ee343f199447",
+			"id": "1234694a-59b7-48f4-bf53-a9e0941b6a33",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "e348ee36-50b5-40fc-81ce-d79d394daf4a",
+			"id": "0425156f-6b0f-4923-b9cd-04eee81ce881",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "1adb5aee-5599-4357-b1d2-c47afb468c70",
+			"id": "48d88ce5-0ebc-4a37-bfb4-f3e36d284a1e",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
