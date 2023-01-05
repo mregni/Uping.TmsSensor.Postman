@@ -598,7 +598,8 @@
 						"description": "Auth0 password"
 					}
 				],
-				"url": "{{BASE_URL}}/login"
+				"url": "{{BASE_URL}}/login",
+				"description": "This endpoint return a bearer token to be used as a header in the other calls.\n\nHeader for authenticating the other calls: { Authorization: \"Bearer \" }\n\nStartFragmentAuthorizationAuthorization"
 			},
 			"response": [
 				{
@@ -688,25 +689,25 @@
 	],
 	"variable": [
 		{
-			"id": "0d270086-e0b2-4374-9f8b-b439c1cd0236",
+			"id": "2e5b2e75-f9e7-4bff-b2d1-c8dea494d980",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "69f24353-0f98-4901-b828-c923cfe9cad0",
+			"id": "0d0a54a4-97d5-4c86-ae55-3fdc1c33e228",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "569d3afc-21c3-4f5e-ab6b-cc436033d40e",
+			"id": "779e656d-9bb9-4b17-8cd9-a5426a05b66a",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "c4a8657f-2ad4-4c9e-9237-67cacb472fef",
+			"id": "5f6206a7-75c3-4986-8bfb-0ae8058173b4",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
