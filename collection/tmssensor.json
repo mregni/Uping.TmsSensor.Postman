@@ -34,7 +34,8 @@
 									"description": "Id of the sensor that is requested"
 								}
 							]
-						}
+						},
+						"description": "Get a single sensor by id. This is usefull if you have a local sensor id list and you just want to fetch the sensor that you need."
 					},
 					"response": [
 						{
@@ -679,25 +680,25 @@
 	],
 	"variable": [
 		{
-			"id": "5c585023-688c-40da-bf7a-79c8e4baf198",
+			"id": "1c901c8c-da89-45ec-a6aa-13c96d5438a0",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "45a139ff-56ec-4bb3-a663-fad27ca9b868",
+			"id": "6d9c8a33-fd80-4499-83fc-bf8b48487480",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "c01c8afd-aac0-43e8-8950-26c0203132a0",
+			"id": "91e7cb3f-00fb-41be-a18f-f777dc41f471",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "79a48a27-41e5-4db0-9b84-bb2737321965",
+			"id": "fd93ba14-9ddf-4f67-ae6b-78e3fa890f57",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
