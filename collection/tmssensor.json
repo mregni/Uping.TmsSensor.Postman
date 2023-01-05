@@ -101,7 +101,7 @@
 					"response": [
 						{
 							"id": "991c09a2-75f9-4353-bdc0-bea6965fea54",
-							"name": "Get Active Sensor",
+							"name": "Get Sensor",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -117,7 +117,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "",
+											"value": "3",
 											"description": "Id of the sensor that is requested"
 										}
 									]
@@ -146,7 +146,7 @@
 							],
 							"cookie": [],
 							"responseTime": null,
-							"body": "{\n    \"id\": 3,\n    \"tenantId\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n    \"projectId\": 2,\n    \"metaDataId\": null,\n    \"from\": \"2023-01-01T00:00:00\",\n    \"until\": \"2023-04-03T00:00:00\",\n    \"broken\": false,\n    \"longitude\": 4.397107,\n    \"latitude\": 51.15967,\n    \"tmsId\": 97357381,\n    \"name\": \"Second sensor\",\n    \"soilType\": 0,\n    \"isActive\": true\n}"
+							"body": "{\n    \"id\": 3,\n    \"tenantId\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n    \"projectId\": 2,\n    \"metaDataId\": null,\n    \"from\": \"2023-01-01T00:00:00\",\n    \"until\": null,\n    \"broken\": false,\n    \"longitude\": 3.347107,\n    \"latitude\": 50.15967,\n    \"tmsId\": 97355698,\n    \"name\": \"Second sensor\",\n    \"soilType\": 0,\n    \"isActive\": true\n}"
 						},
 						{
 							"id": "d98f1144-9963-4afc-ab9a-cf92ee958de4",
@@ -476,25 +476,25 @@
 	],
 	"variable": [
 		{
-			"id": "85c009f1-a2b3-4830-92e6-1ff3607cbd3b",
+			"id": "8a0d7128-ad94-4c6e-9945-070bc4f156e5",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "90f677f8-ac89-42b4-af9f-5ab08c9135fd",
+			"id": "33b3018f-f69a-49c8-b90d-06ff0889a864",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "22cd5d83-19ea-494a-9c86-40dfc196a233",
+			"id": "cf4c5828-88c6-4027-bdd3-873cca3a24cb",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "b4a9e4ed-d653-4ab2-9e61-bb9521171f17",
+			"id": "7bedb458-8e1c-4d2b-aec7-53bf82a6e54c",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
