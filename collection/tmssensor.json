@@ -379,7 +379,72 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"id": "664ae2ad-b1c9-4dd1-a772-ebbd87d6752e",
+							"name": "Get Sensor Values",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/sensor/:id/values",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"sensor",
+										":id",
+										"values"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "",
+											"description": "From what date do you want to fetch values. From itself is NOT included in the results (from < value.date). Don't include from if you want to fetch last month of data. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ...",
+											"disabled": true
+										},
+										{
+											"key": "until",
+											"value": "",
+											"description": "Until what date do you want to fetch values. Until itself is included in the results (value.date <= until). Don't include from if you want to fetch last month of data. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ...",
+											"disabled": true
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "3",
+											"description": "Id of the sensor that is requested"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 05 Jan 2023 14:01:22 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "[]"
+						}
+					]
 				}
 			],
 			"id": "68edc63c-8cc1-4961-b1b3-9a03fd6f306a"
@@ -551,25 +616,25 @@
 	],
 	"variable": [
 		{
-			"id": "d2326263-e27e-4145-90e5-8bffe2b438c1",
+			"id": "6c42382d-607c-4144-8bba-8d3e84a9fb75",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "6711949d-334a-400e-acbc-65ab6ea15c5c",
+			"id": "05a18684-c719-45b9-beae-fbb1ba3c7de5",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "3d315bbf-1b81-4ca9-af4f-cdf6b2ceafd3",
+			"id": "b8dc4a54-8246-4624-a621-6bac9ab6d5a4",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "7af9225e-e1b3-4f55-9202-04d333f25ae2",
+			"id": "27a4dfe5-3e21-4795-9b7b-dd8b08b24c8b",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
