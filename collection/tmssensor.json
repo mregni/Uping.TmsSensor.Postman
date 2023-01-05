@@ -101,7 +101,7 @@
 					"response": [
 						{
 							"id": "991c09a2-75f9-4353-bdc0-bea6965fea54",
-							"name": "Get Sensor",
+							"name": "Get Active Sensor",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -394,25 +394,25 @@
 	],
 	"variable": [
 		{
-			"id": "f22b730d-8afd-44f7-9133-5161352de4e8",
+			"id": "1fbe5232-a79a-4982-9894-d42896bfad9b",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "e6e16a2f-2f14-4a69-8a21-42acd1040b62",
+			"id": "16fc7e7f-cba7-406e-9eff-6d6ae49610da",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "1f656c3c-e7ed-41aa-bcae-595b86b18f0a",
+			"id": "6501b2d1-1254-4c68-bdcd-f33551d8ea4f",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "73559189-e34a-4883-b125-3b0145f94039",
+			"id": "fcfbcc2b-e8a1-4c12-8a22-0540cc916e14",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
