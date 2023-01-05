@@ -72,7 +72,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{BASE_URL}}/sensor/:id/values?from=09-04-2021&until=2021-04-10T01:00:00",
+					"raw": "{{BASE_URL}}/sensor/:id/values?from=&until=",
 					"host": [
 						"{{BASE_URL}}"
 					],
@@ -84,20 +84,19 @@
 					"query": [
 						{
 							"key": "from",
-							"value": "09-04-2021",
+							"value": "",
 							"description": "From what date do you want to fetch values. From itself is NOT included in the results (from < value.date). Don't include from if you want to fetch last month of data. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ..."
 						},
 						{
 							"key": "until",
-							"value": "2021-04-10T01:00:00",
+							"value": "",
 							"description": "Until what date do you want to fetch values. Until itself is included in the results (value.date <= until). Don't include from if you want to fetch last month of data. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ..."
 						}
 					],
 					"variable": [
 						{
-							"id": "8cfca1bf-84bc-4a95-bf77-99c7fb1cc41d",
 							"key": "id",
-							"value": "4",
+							"value": "",
 							"description": "Id of the sensor that is requested"
 						}
 					]
@@ -187,25 +186,25 @@
 	],
 	"variable": [
 		{
-			"id": "c392480a-3978-4a01-a3aa-fd3e9c561b46",
+			"id": "f78f1d46-93fb-48eb-b357-d643cc726453",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "7fa39934-597a-431e-b7c5-cbbd2e45b451",
+			"id": "680524da-7096-44cc-919d-fa2d0bf86f8d",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "221b72ca-c253-49c9-af97-07e47416ed5c",
+			"id": "fcdcb5ac-09c3-4a2d-91e4-1e8665a3b1b0",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "017cfa75-360d-4735-9597-c481031fe0d5",
+			"id": "85c9b9d8-79e3-4bcf-af81-5fe6bdf58b1f",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
