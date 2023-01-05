@@ -1,0 +1,214 @@
+{
+	"info": {
+		"_postman_id": "c95aee5b-a435-4323-b1d1-5eb85a1c20ce",
+		"name": "TmsSensors",
+		"description": "**TMS Sensors API**\n\nThis collection is made so you can call the TMS sensors api easily.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Token",
+			"id": "17cc5e61-1253-4419-89b5-f187d2fe1440",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-username",
+						"value": "",
+						"type": "text",
+						"description": "Auth0 username"
+					},
+					{
+						"key": "x-password",
+						"value": "",
+						"type": "text",
+						"description": "Auth0 password"
+					}
+				],
+				"url": "{{BASE_URL}}/login"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Sensor",
+			"id": "188249c6-313b-4f5b-a0da-cc11594bffbd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/sensor/:id",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"sensor",
+						":id"
+					],
+					"variable": [
+						{
+							"id": "ed740ece-0a77-4cdf-ae57-72e755a87281",
+							"key": "id",
+							"value": "4",
+							"description": "Id of the sensor that is requested"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Sensor Values",
+			"id": "fcbe5daf-5321-45e6-9755-fc14e7c571dc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/sensor/:id/values?from=09-04-2021&until=2021-04-10T01:00:00",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"sensor",
+						":id",
+						"values"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "09-04-2021",
+							"description": "From what date do you want to fetch values. From itself is NOT included in the results (from < value.date). Don't include from if you want to fetch last month of data. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ..."
+						},
+						{
+							"key": "until",
+							"value": "2021-04-10T01:00:00",
+							"description": "Until what date do you want to fetch values. Until itself is included in the results (value.date <= until). Don't include from if you want to fetch last month of data. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ..."
+						}
+					],
+					"variable": [
+						{
+							"id": "8cfca1bf-84bc-4a95-bf77-99c7fb1cc41d",
+							"key": "id",
+							"value": "4",
+							"description": "Id of the sensor that is requested"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Sensors",
+			"id": "bf77a33a-5096-4c33-a6ab-ce464cb73f31",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/sensors?active=true&date=04-05-2022",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"sensors"
+					],
+					"query": [
+						{
+							"key": "active",
+							"value": "true"
+						},
+						{
+							"key": "date",
+							"value": "04-05-2022",
+							"description": "On what date do you want to fetch all active sensors. This is only mandatory if active=true. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ..."
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": {
+			"token": "{{TOKEN}}"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "b2d2793f-4384-4552-a118-569c58893b87",
+				"type": "text/javascript",
+				"exec": [
+					"if(pm.collectionVariables.get('TOKEN').length == 0) ",
+					"{",
+					"    var username = pm.collectionVariables.get('USERNAME');",
+					"    var password = pm.collectionVariables.get('PASSWORD');",
+					"    var base_url = pm.collectionVariables.get('BASE_URL');",
+					"",
+					"    const getTokenRequest = {",
+					"    method: 'GET',",
+					"    url: base_url+'/Login',",
+					"    header: {",
+					"            'x-username': username,",
+					"            'x-password': password ",
+					"        }",
+					"    };",
+					"",
+					"    pm.sendRequest(getTokenRequest, (err, response) => {",
+					"        const jsonResponse = response.json();",
+					"        pm.collectionVariables.set('TOKEN', jsonResponse.access_token);",
+					"    });",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "4074243c-c099-49a4-b2e2-aa2c05963805",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "ea04cd8d-8a75-4992-bbf1-0e75dddb4f3c",
+			"key": "BASE_URL",
+			"value": "https://localhost:7071/api",
+			"type": "string"
+		},
+		{
+			"id": "cd6ea305-76b7-455e-8c0e-3874a5707c46",
+			"key": "USERNAME",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"id": "3ec99be9-b379-4b59-9305-1155f7ace7b2",
+			"key": "PASSWORD",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"id": "596f9f95-7f58-492d-a86d-c5e640c20e4c",
+			"key": "TOKEN",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
