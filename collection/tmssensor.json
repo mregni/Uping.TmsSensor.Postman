@@ -153,7 +153,7 @@
 								{
 									"key": "date",
 									"value": "20/09/2022",
-									"description": "On what date do you want to fetch all active sensors. This is only mandatory if active=true. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ...",
+									"description": "On what date do you want to fetch all active sensors. This is only mandatory if onlyActive=true. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ...",
 									"disabled": true
 								}
 							]
@@ -683,25 +683,25 @@
 	],
 	"variable": [
 		{
-			"id": "2a5785d9-536b-42b2-9ebc-528187a5814c",
+			"id": "53292b7a-95c5-4cb3-af36-c83773a0c341",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "aeeb103b-2297-454e-a9a9-ec1825adbdd6",
+			"id": "ae0cd2e2-28f9-4321-b4c9-9203bc88e726",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "f3575bfa-34ca-4565-83b6-594d87a8305d",
+			"id": "c770bb5e-b4ec-48fe-a93d-75e4783c49ff",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "1f6783d3-da75-4f2d-8545-1fd9aeb39c3f",
+			"id": "e3abf1c7-bfe8-4b51-9050-562a99f542f3",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
