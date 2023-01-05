@@ -446,7 +446,7 @@
 						},
 						{
 							"id": "20c2b64e-70d6-4e0e-9c38-3ff890b05dfb",
-							"name": "Get Sensor Values",
+							"name": "Get Values For Date Range",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -678,25 +678,25 @@
 	],
 	"variable": [
 		{
-			"id": "9f55a160-bd77-4e78-ae6e-b6362562af42",
+			"id": "65b1e13a-293d-4a95-b30f-836cbdfd7c9b",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "80f6f08f-8881-4e7f-8048-83fbe12bd65d",
+			"id": "86adc27a-59a3-4233-aca4-3d1e6e6fe51b",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "7ec84aae-0589-4bc6-86c2-f0edb2e99e9c",
+			"id": "3ac8be45-4b88-4a3a-b03f-1fd0435138c6",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "7c446e0b-1a3d-4d3b-a7f7-57a8661be426",
+			"id": "a26dd962-3835-405f-ac1e-47e80fb2574c",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
