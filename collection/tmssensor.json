@@ -185,7 +185,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"\",\r\n    \"firstName\": \"\",\r\n    \"lastName\": \"\",\r\n    \"email\": \"\"\r\n}",
+									"raw": "{\r\n    \"name\": \"tenant1\",\r\n    \"firstName\": \"john\",\r\n    \"lastName\": \"smith\",\r\n    \"email\": \"john.smith@example.com\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -274,25 +274,25 @@
 	],
 	"variable": [
 		{
-			"id": "22cde848-1517-4191-b616-fc2d5b440331",
+			"id": "7287cec3-e092-4093-8942-dc75ed946814",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "dbb9bca5-1d84-42c8-a5d9-9284f437e104",
+			"id": "efde2a08-4e7a-40a1-8c8b-516da34bacf3",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "1e69f8ad-5bdb-47ef-abf0-c76676708c03",
+			"id": "f78f4b07-b429-4a28-a977-4c1e20483a75",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "bc9fe133-32ff-4e2a-b0c8-9e56b3f22407",
+			"id": "3054d670-be16-4e8b-a955-96cf73e3b6e5",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
