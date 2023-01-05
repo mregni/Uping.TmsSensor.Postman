@@ -42,13 +42,13 @@
 								"header": [
 									{
 										"key": "x-username",
-										"value": "",
+										"value": "john.smith@example.com",
 										"type": "text",
 										"description": "Auth0 username"
 									},
 									{
 										"key": "x-password",
-										"value": "",
+										"value": "Str0ngP8ssw0rd!",
 										"type": "text",
 										"description": "Auth0 password"
 									}
@@ -336,25 +336,25 @@
 	],
 	"variable": [
 		{
-			"id": "54bea2d3-076f-4b21-b582-e6e3e48711aa",
+			"id": "bdf10711-f05f-4aa4-bb48-c91afdac4fb4",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "4742443c-733e-45bc-af39-be88195cdf70",
+			"id": "74975fcd-0bb7-46c8-9c5a-7a4e8239f6f4",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "37286312-f2f9-4c77-b37a-492d760b126a",
+			"id": "89b95a5e-9833-4d9e-bf54-626dc50d092f",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "bd531050-3bb6-4fb2-bf25-ef4a4b21da8c",
+			"id": "f9caeb95-cbf8-49cf-8e4f-b2ebd326349f",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
