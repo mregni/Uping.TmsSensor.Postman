@@ -263,6 +263,41 @@
 							"cookie": [],
 							"responseTime": null,
 							"body": "[\n    {\n        \"id\": 3,\n        \"tenantId\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n        \"projectId\": 2,\n        \"metaDataId\": null,\n        \"from\": \"2022-01-01T00:00:00\",\n        \"until\": \"2022-04-03T00:00:00\",\n        \"broken\": false,\n        \"longitude\": 4.397107,\n        \"latitude\": 51.15967,\n        \"tmsId\": 97357381,\n        \"name\": \"Second sensor\",\n        \"soilType\": 0,\n        \"isActive\": false\n    },\n    {\n        \"id\": 4,\n        \"tenantId\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n        \"projectId\": 2,\n        \"metaDataId\": null,\n        \"from\": \"2021-01-03T00:00:00\",\n        \"until\": null,\n        \"broken\": false,\n        \"longitude\": 3.347107,\n        \"latitude\": 50.15967,\n        \"tmsId\": 97357390,\n        \"name\": \"Sensor tenant C\",\n        \"soilType\": 0,\n        \"isActive\": true\n    }\n]"
+						},
+						{
+							"id": "9b38f84f-38c7-47ef-857e-282d825e20da",
+							"name": "Get Sensors",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/sensors",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"sensors"
+									],
+									"query": [
+										{
+											"key": "active",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "date",
+											"value": "",
+											"description": "On what date do you want to fetch all active sensors. This is only mandatory if active=true. Valid formats: 09-04-2021, 09-04-2021 12:00, 2021-04-10T00:00:00, ...",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"responseTime": null,
+							"body": null
 						}
 					]
 				},
@@ -478,25 +513,25 @@
 	],
 	"variable": [
 		{
-			"id": "9ebf41ad-c727-46b2-b8d3-8679ccd5bf55",
+			"id": "a0a569ba-d5c1-43ff-aacb-6d8c2056bdb2",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "e5b0f888-4bb0-4937-a7ff-1fa6d92b534c",
+			"id": "7fb8fcdc-2250-497d-8af8-ca68eacc069e",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "373cd75b-9dac-4e02-822b-97d405ee5d01",
+			"id": "5fdbd71c-baad-4dc5-84b5-c76c798e8dbc",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "773be4a1-0498-4a81-a7a9-c0c08318b731",
+			"id": "a106d1b0-8d73-4cd8-9aa6-d6c5f6e008e5",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
