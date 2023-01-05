@@ -442,7 +442,7 @@
 							],
 							"cookie": [],
 							"responseTime": null,
-							"body": "[]"
+							"body": "[\r\n    {\r\n        \"timeStamp\": \"2021-04-10T00:00:00\",\r\n        \"temperatureTop\": 7.9375,\r\n        \"temperatureMiddle\": 8.625,\r\n        \"temperatureBottom\": 9.5625,\r\n        \"humidity\": 0.491320375,\r\n        \"errors\": 0\r\n    },\r\n    {\r\n        \"timeStamp\": \"2021-04-10T00:15:00\",\r\n        \"temperatureTop\": 7.9375,\r\n        \"temperatureMiddle\": 8.5625,\r\n        \"temperatureBottom\": 9.5,\r\n        \"humidity\": 0.491320375,\r\n        \"errors\": 0\r\n    },\r\n    ...\r\n]"
 						}
 					]
 				}
@@ -616,25 +616,25 @@
 	],
 	"variable": [
 		{
-			"id": "3427b6c6-7a95-47c2-b5df-f9292f60dd33",
+			"id": "30851c55-d4d4-448a-9dbb-f2e4cfb3a9a5",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "a08cca0d-f37d-439b-9804-ed7280393a9d",
+			"id": "c4eefacb-d4d7-411c-a2da-a2cd33853fbc",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "10d5b135-7ecc-4f84-81d6-fdec669e5423",
+			"id": "386cc84d-336f-411a-914f-7c34f17a68aa",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "6b28d68c-803c-45bd-814f-6470b7745149",
+			"id": "9c4da0a5-a3f7-481f-bc7c-71aa66c388d8",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
