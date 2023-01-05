@@ -166,17 +166,25 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "",
+											"value": "3",
 											"description": "Id of the sensor that is requested"
 										}
 									]
 								}
 							},
-							"_postman_previewlanguage": null,
-							"header": null,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"name": "Content-Type",
+									"value": "application/json",
+									"description": "",
+									"type": "text"
+								}
+							],
 							"cookie": [],
 							"responseTime": null,
-							"body": null
+							"body": "{\n    \"id\": 3,\n    \"tenantId\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n    \"projectId\": 2,\n    \"metaDataId\": null,\n    \"from\": \"2022-01-01T00:00:00\",\n    \"until\": \"2023-01-01T00:00:00\",\n    \"broken\": false,\n    \"longitude\": 4.397107,\n    \"latitude\": 51.15967,\n    \"tmsId\": 97355698,\n    \"name\": \"Second sensor\",\n    \"soilType\": 0,\n    \"isActive\": false\n}"
 						}
 					]
 				},
@@ -424,25 +432,25 @@
 	],
 	"variable": [
 		{
-			"id": "d130a728-1409-4c3b-ad21-10224abb81bc",
+			"id": "c627c5e7-7d13-47c8-8b5a-ac58ac069020",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "109ac95e-c669-4387-b910-c9b8ab98a911",
+			"id": "61730663-3e72-4877-a0dc-ee343f199447",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "765bf49e-f082-4e1e-8f31-0c67c6c8d2e4",
+			"id": "e348ee36-50b5-40fc-81ce-d79d394daf4a",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "a1cbc4cf-77c0-4229-8f73-ae53eee4719d",
+			"id": "1adb5aee-5599-4357-b1d2-c47afb468c70",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
