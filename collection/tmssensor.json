@@ -467,7 +467,8 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{BASE_URL}}/tenant"
+						"url": "{{BASE_URL}}/tenant",
+						"description": "This endpoint returns all your tenant information."
 					},
 					"response": [
 						{
@@ -686,25 +687,25 @@
 	],
 	"variable": [
 		{
-			"id": "b3ee4a62-660a-4855-8274-4d76f911eb6a",
+			"id": "fcaead57-fe21-4c42-acfd-f69600704a03",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "dfc84854-6926-43b7-82f9-01b23995242c",
+			"id": "adbb8141-6380-4254-a50e-e0311740b333",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "98d6af07-0b92-4da3-a406-c87dacc8652d",
+			"id": "efd2a495-c41a-4e65-be25-cfce7917bf0a",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "e17dc4c0-27f7-419f-9bf3-29a3dd101798",
+			"id": "7d97b7ed-b896-4415-be2e-b6e78d3c15b2",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
