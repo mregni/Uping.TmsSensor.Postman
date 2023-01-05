@@ -142,7 +142,7 @@
 			"id": "68edc63c-8cc1-4961-b1b3-9a03fd6f306a"
 		},
 		{
-			"name": "New Folder",
+			"name": "Tenant",
 			"item": [],
 			"id": "8671b3c2-0b1c-42a9-8511-34b6a616721b"
 		}
@@ -196,25 +196,25 @@
 	],
 	"variable": [
 		{
-			"id": "9ff702b9-ffea-4cb1-9e05-f6af62e6776c",
+			"id": "274b735e-33ed-4ff6-9a7d-2020ffdd0ccf",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "81253e37-30af-4494-aff6-352449a6219c",
+			"id": "ffe95497-99ec-4147-85c7-e89cfa03331a",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "257f5590-70a0-4e51-b5f5-501220a714f1",
+			"id": "2d0c308f-ebe3-4ce1-af44-6fa58cb6b1d7",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "ac19f2c9-dbe2-4db6-9514-aabe4f489736",
+			"id": "aa68cb1e-c870-46b1-925f-7d075ec768cc",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
