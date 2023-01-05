@@ -524,7 +524,8 @@
 								}
 							}
 						},
-						"url": "{{BASE_URL}}/tenant"
+						"url": "{{BASE_URL}}/tenant",
+						"description": "As an administrator you can also update your tenant information with this endpoint.\n\nYou can not make a field empty or change the tenant id."
 					},
 					"response": [
 						{
@@ -687,25 +688,25 @@
 	],
 	"variable": [
 		{
-			"id": "fcaead57-fe21-4c42-acfd-f69600704a03",
+			"id": "0d270086-e0b2-4374-9f8b-b439c1cd0236",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "adbb8141-6380-4254-a50e-e0311740b333",
+			"id": "69f24353-0f98-4901-b828-c923cfe9cad0",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "efd2a495-c41a-4e65-be25-cfce7917bf0a",
+			"id": "569d3afc-21c3-4f5e-ab6b-cc436033d40e",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "7d97b7ed-b896-4415-be2e-b6e78d3c15b2",
+			"id": "c4a8657f-2ad4-4c9e-9237-67cacb472fef",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
