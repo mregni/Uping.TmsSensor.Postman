@@ -453,7 +453,7 @@
 				}
 			],
 			"id": "68edc63c-8cc1-4961-b1b3-9a03fd6f306a",
-			"description": "These API endpoints manage the Sensors of your project. You can fetch a list, a single one or only active sensors if needed."
+			"description": "These API endpoints manage the Sensors of your project. You can fetch a list, a single one or only active sensors if needed.\n\nThere is also an endpoint to fetch sensor values for a date range."
 		},
 		{
 			"name": "Tenant",
@@ -685,25 +685,25 @@
 	],
 	"variable": [
 		{
-			"id": "a9d9a870-572a-4540-bece-c9a0791aa00b",
+			"id": "0af97aa3-9351-4b20-b123-6e8d0dea57bd",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "ed78c393-10f6-4766-8763-95039fdfd9c3",
+			"id": "b355ae06-00bc-4c72-9baa-5fc3d0d70ea0",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "f91833bf-d292-4073-8c86-ec656ece635b",
+			"id": "72cd55e1-53f2-4aac-88a1-95003e3d4ed4",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "76253476-df4c-42d2-a8e6-9aaa8cf0cd48",
+			"id": "161be9c7-acf7-41ff-ab1a-7f5d087d369c",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
