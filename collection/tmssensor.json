@@ -176,7 +176,50 @@
 						},
 						"url": "{{BASE_URL}}/tenant"
 					},
-					"response": []
+					"response": [
+						{
+							"id": "d26c2420-0453-4a8c-acc3-c0271cb3f7c3",
+							"name": "Update Tenant Info",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"\",\r\n    \"firstName\": \"\",\r\n    \"lastName\": \"\",\r\n    \"email\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{BASE_URL}}/tenant"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 05 Jan 2023 13:48:16 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"id\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n    \"name\": \"TestUping\",\n    \"firstName\": \"Mikhaël\",\n    \"lastName\": \"Regni\",\n    \"email\": \"mikhael@uping.be\"\n}"
+						}
+					]
 				}
 			],
 			"id": "8671b3c2-0b1c-42a9-8511-34b6a616721b"
@@ -231,25 +274,25 @@
 	],
 	"variable": [
 		{
-			"id": "11b103cc-d165-42df-bbae-4139cf9353eb",
+			"id": "22cde848-1517-4191-b616-fc2d5b440331",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "405b999a-cdb8-44e9-b71a-720affb134cd",
+			"id": "dbb9bca5-1d84-42c8-a5d9-9284f437e104",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "487c3c86-9dfb-4af0-b608-fcbc1c93ad71",
+			"id": "1e69f8ad-5bdb-47ef-abf0-c76676708c03",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "48e776fc-d88a-4947-9ffe-4805e2601373",
+			"id": "bc9fe133-32ff-4e2a-b0c8-9e56b3f22407",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
