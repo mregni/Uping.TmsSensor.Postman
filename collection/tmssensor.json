@@ -462,7 +462,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{BASE_URL}}/tenant"
 					},
 					"response": [
 						{
@@ -680,25 +681,25 @@
 	],
 	"variable": [
 		{
-			"id": "b366f305-e8b1-4d0b-9cf2-5cb080e91526",
+			"id": "8f3fbe1d-9ac2-4c6c-820c-3f177f68174e",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "a3ca426c-b159-4cf3-af54-171dcf59fc63",
+			"id": "3a7dd440-ffbd-4047-8e2e-7dda49869a8b",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "135d210d-218e-43c0-be44-1c0ad79ec79c",
+			"id": "ff9e5605-8e5c-4afd-add0-bf37b7c2ca87",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "595bf757-62a8-4cb7-9f3d-2fc0fe41d1ec",
+			"id": "011bed18-7538-4920-9ae8-a5b710c2d4cc",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
