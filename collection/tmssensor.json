@@ -55,11 +55,19 @@
 								],
 								"url": "{{BASE_URL}}/login"
 							},
-							"_postman_previewlanguage": null,
-							"header": null,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"name": "Content-Type",
+									"value": "application/json",
+									"description": "",
+									"type": "text"
+								}
+							],
 							"cookie": [],
 							"responseTime": null,
-							"body": "{\r\n    \"access_token\": \"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InVwMjVDaWRSa2hnclBiWmZoaXpQVyJ9.eyJ0ZW5hbnQiOiJDN0E2NkVBQy0zQzkzLTRFNTEtQjM0RS0yNkI0ODVBMTAwNzUiLCJ1c2VyUm9sZXMiOlsiYWRtaW4iLCJ1c2VyIl0sImlzcyI6Imh0dHBzOi8vZGV2LXVwaW5nLmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2M2FjNzIyNzNhOTVkNTE3ZWZkODdlMzUiLCJhdWQiOiJodHRwczovL2Rldi10bXNldW4tZnVuYy5henVyZXdlYnNpdGVzLm5ldCIsImlhdCI6MTY3MjkyNjY4NiwiZXhwIjoxNjczMDEzMDg2LCJhenAiOiJ5cmhqeFZFTDllRnM2VTd1cFpLVzliVzdlYkhSRXJKNyIsImd0eSI6InBhc3N3b3JkIn0.LSz-EEcunXqP_-sIbVf5TA2-sW48RtvYTnRbYg-0An3m7qnFkqr4jnwmydui21BmFZMQAPpVxOBQpyIpt3lBNoPCz0lY-xSiavLir5318G72iP4tGKrM7vgkibkPlLY6csG_0sUAVXqF14QnBoCzeIvSozdqaLu-XeyJZZK11eFCjKdec9pZ_UwkmZjbBJwZ_0aZ_jhZEMMFBeB46py4CjWoRWGHnmGjLtzuEblj-WdI7_TQBdB1i4fNYmKDwsHokQo1JArLexB4VcUIDHKsoJ7IHbIRY76xGPe8BjCc2rJbyBPdI_9lqSSlx2v45pCUMqHDfCmd4zaEamn-zU8utA\",\r\n    \"expires_in\": 86400,\r\n    \"token_type\": \"Bearer\"\r\n}"
+							"body": "{\n    \"access_token\": \"eyJhbGciOiJSUzI1NiIsInR...\",\n    \"expires_in\": 86400,\n    \"token_type\": \"Bearer\"\n}"
 						}
 					]
 				},
@@ -336,25 +344,25 @@
 	],
 	"variable": [
 		{
-			"id": "f8198b78-8dc4-45a3-b3a2-a0d4f64abc28",
+			"id": "92602693-1e69-4902-950f-035fd9197c77",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "aef90a5e-7c13-4e77-8cd9-727c2171f9db",
+			"id": "3bd65da5-d424-4135-952b-f24d7ded7203",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "f645942a-8658-4ebe-8f95-f1e05fdd3d4a",
+			"id": "d10b6128-8ecf-4f43-b1cb-d8721ec528de",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "38e76377-6106-44c9-92b7-97cce65e46e1",
+			"id": "fd581a92-4812-48ea-ada5-ae627a41f54d",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
