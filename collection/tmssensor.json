@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "c95aee5b-a435-4323-b1d1-5eb85a1c20ce",
 		"name": "TmsSensors",
-		"description": "**TMS Sensors API**\n\nThis collection is made so you can call the TMS sensors api easily.\n\nThe API is protected with OAuth so you will need to request a proper account before being able to call the API. When you received a username and password you can call the \\`Get Token\\` api to get a authentication token.",
+		"description": "**TMS Sensors API**\n\nThis collection is made so you can call the TMS sensors api easily.\n\nThe API is protected with OAuth so you will need to request a proper account before being able to call the API. When you received a username and password you can call the **Get Token** api to get a authentication token.\n\nWhen you put your username and password in the collection variables, the collection will call the **Get Token** for you at the start of your API call and insert the token for you.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -678,25 +678,25 @@
 	],
 	"variable": [
 		{
-			"id": "206e46ae-2cde-41f3-9482-7b41afbdaa51",
+			"id": "d29f881e-e7d5-45c4-ac72-c6ebf341966f",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "37a0d42f-10d1-41f0-a086-0e797a007efc",
+			"id": "106816a2-8881-4c9c-804f-07b32e70e93c",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "eab6ab8d-5eb8-4007-9f36-7b7cefb1f75a",
+			"id": "90272767-096e-40bb-b11e-130796899453",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "fd61d988-706f-49bb-aa59-d4e2369bd417",
+			"id": "21642e0d-ea70-4115-af45-d659d211457b",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
