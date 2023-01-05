@@ -213,7 +213,7 @@
 					"response": [
 						{
 							"id": "d26c2420-0453-4a8c-acc3-c0271cb3f7c3",
-							"name": "Update Tenant Info",
+							"name": "Update tenant",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [],
@@ -308,25 +308,25 @@
 	],
 	"variable": [
 		{
-			"id": "060ff9b2-1e2f-435f-8923-bdec064b6c7f",
+			"id": "f53f031b-80e3-4b4f-92fb-7c4f741013f3",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "b71f5ce5-80a3-447e-a931-51525b51662f",
+			"id": "f15c1de5-226f-4adb-8e74-83b8daf79e95",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "73ada024-95b5-4b00-83fd-181e5762eece",
+			"id": "f40a0be0-f49d-4010-b5c5-2ea3a5e9d75d",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "45cdd673-8f98-441a-bef1-b5b6e37abd3e",
+			"id": "4c9f0d10-aea6-4cbc-860a-c3261bb4fbb8",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
