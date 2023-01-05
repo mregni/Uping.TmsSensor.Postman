@@ -163,8 +163,18 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\r\n    \"name\": \"TestUping3\",\r\n    \"firstName\": \"Mikhaël2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BASE_URL}}/tenant"
 					},
 					"response": []
 				}
@@ -221,25 +231,25 @@
 	],
 	"variable": [
 		{
-			"id": "6a9c93e0-9595-4fb4-824c-c4d90d2bc572",
+			"id": "7efdcfaa-39ca-4051-876e-86971094ee65",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "5cdc23f6-1bee-42a0-8482-b68ec707fc92",
+			"id": "e7154f59-cbca-401c-a50b-ab6c8f0577f3",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "52a85f52-03a6-44c9-8c68-da889d11ce7b",
+			"id": "5d0edf2c-e036-4691-8526-1df84fc0892e",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "644b97d4-1989-4fc6-a681-8f18e1ed74c0",
+			"id": "4fd08e99-94f3-40e1-8026-04965d22e334",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
