@@ -150,7 +150,7 @@
 						},
 						{
 							"id": "d98f1144-9963-4afc-ab9a-cf92ee958de4",
-							"name": "Get Sensor",
+							"name": "Get Inactive Sensor",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -424,25 +424,25 @@
 	],
 	"variable": [
 		{
-			"id": "bd2917a7-bdf2-4f09-8fb5-83985637a816",
+			"id": "d130a728-1409-4c3b-ad21-10224abb81bc",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "f58153b0-b9d9-4f76-9097-fe4f17673f8f",
+			"id": "109ac95e-c669-4387-b910-c9b8ab98a911",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "97248a77-b003-40dc-b97c-cdfd0b687836",
+			"id": "765bf49e-f082-4e1e-8f31-0c67c6c8d2e4",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "072c42b7-b78f-4d36-be0b-083f8203c2a3",
+			"id": "a1cbc4cf-77c0-4229-8f73-ae53eee4719d",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
