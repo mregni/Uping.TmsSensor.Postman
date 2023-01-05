@@ -599,7 +599,7 @@
 					}
 				],
 				"url": "{{BASE_URL}}/login",
-				"description": "This endpoint return a bearer token to be used as a header in the other calls.\n\nHeader for authenticating the other calls: { Authorization: \"Bearer \" }\n\nStartFragmentAuthorizationAuthorization"
+				"description": "This endpoint return a bearer token to be used as a header in the other calls.\n\nHeader for authenticating the other calls: { Authorization: \"Bearer \" }"
 			},
 			"response": [
 				{
@@ -689,25 +689,25 @@
 	],
 	"variable": [
 		{
-			"id": "2e5b2e75-f9e7-4bff-b2d1-c8dea494d980",
+			"id": "75997151-aa6c-4f11-9b65-f1ad1481a6ec",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "0d0a54a4-97d5-4c86-ae55-3fdc1c33e228",
+			"id": "4c91ae23-af7c-4953-9c72-52dac6718d06",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "779e656d-9bb9-4b17-8cd9-a5426a05b66a",
+			"id": "e4782308-2ebd-46b3-bdd4-9513ace1ffbe",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "5f6206a7-75c3-4986-8bfb-0ae8058173b4",
+			"id": "1c6a611b-959b-44ea-b990-ff1e08419780",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
