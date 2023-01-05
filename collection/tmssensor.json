@@ -184,7 +184,7 @@
 							],
 							"cookie": [],
 							"responseTime": null,
-							"body": "{\n    \"id\": 3,\n    \"tenantId\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n    \"projectId\": 2,\n    \"metaDataId\": null,\n    \"from\": \"2022-01-01T00:00:00\",\n    \"until\": \"2023-01-01T00:00:00\",\n    \"broken\": false,\n    \"longitude\": 4.397107,\n    \"latitude\": 51.15967,\n    \"tmsId\": 97355698,\n    \"name\": \"Second sensor\",\n    \"soilType\": 0,\n    \"isActive\": false\n}"
+							"body": "{\n    \"id\": 3,\n    \"tenantId\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n    \"projectId\": 2,\n    \"metaDataId\": null,\n    \"from\": \"2022-01-01T00:00:00\",\n    \"until\": \"2023-01-01T00:00:00\",\n    \"broken\": false,\n    \"longitude\": 3.347107,\n    \"latitude\": 50.15967,\n    \"tmsId\": 97355698,\n    \"name\": \"Second sensor\",\n    \"soilType\": 0,\n    \"isActive\": false\n}"
 						}
 					]
 				},
@@ -476,25 +476,25 @@
 	],
 	"variable": [
 		{
-			"id": "df181529-378f-45e6-8613-5341a63d5153",
+			"id": "85c009f1-a2b3-4830-92e6-1ff3607cbd3b",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "f139c854-c505-471d-b9a8-6eba469720fc",
+			"id": "90f677f8-ac89-42b4-af9f-5ab08c9135fd",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "63ad09be-8e04-498f-8ce2-50e6cf6cc336",
+			"id": "22cd5d83-19ea-494a-9c86-40dfc196a233",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "c11eede6-20c3-433b-ba06-c59b4a589dac",
+			"id": "b4a9e4ed-d653-4ab2-9e61-bb9521171f17",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
