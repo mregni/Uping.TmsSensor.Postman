@@ -98,7 +98,57 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"id": "991c09a2-75f9-4353-bdc0-bea6965fea54",
+							"name": "Get Sensor",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}/sensor/:id",
+									"host": [
+										"{{BASE_URL}}"
+									],
+									"path": [
+										"sensor",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "",
+											"description": "Id of the sensor that is requested"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 05 Jan 2023 13:13:26 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Kestrel"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"id\": 3,\n    \"tenantId\": \"c7a66eac-3c93-4e51-b34e-26b485a10075\",\n    \"projectId\": 2,\n    \"metaDataId\": null,\n    \"from\": \"2023-01-01T00:00:00\",\n    \"until\": \"2023-04-03T00:00:00\",\n    \"broken\": false,\n    \"longitude\": 4.397107,\n    \"latitude\": 51.15967,\n    \"tmsId\": 97357381,\n    \"name\": \"Second sensor\",\n    \"soilType\": 0,\n    \"isActive\": true\n}"
+						}
+					]
 				},
 				{
 					"name": "Get Sensors",
@@ -344,25 +394,25 @@
 	],
 	"variable": [
 		{
-			"id": "34dc56b7-b78c-492a-8a37-05de34d7ae2d",
+			"id": "f22b730d-8afd-44f7-9133-5161352de4e8",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "28831183-5290-4c8c-a8cd-51c2e37e95b3",
+			"id": "e6e16a2f-2f14-4a69-8a21-42acd1040b62",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "61ddc339-53e5-405f-a9bc-506c3263289c",
+			"id": "1f656c3c-e7ed-41aa-bcae-595b86b18f0a",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "fe20dc72-2688-4335-975a-421902563933",
+			"id": "73559189-e34a-4883-b125-3b0145f94039",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
