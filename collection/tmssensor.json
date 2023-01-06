@@ -650,7 +650,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "e291f5a7-52d7-436b-a3ef-f220fd7962eb",
+				"id": "5271cf54-14ee-413b-bec0-27bb3a1c4561",
 				"type": "text/javascript",
 				"exec": [
 					"var moment = require('moment');",
@@ -682,6 +682,7 @@
 					"",
 					"        var now = moment();",
 					"        var expireDate = console.log(moment(now).add(jsonResponse.expires_in, 'seconds'))",
+					"        console.log(jsonResponse.expires_in)",
 					"        console.log(expireDate)",
 					"        pm.collectionVariables.set('EXPIREDATE', expireDate);",
 					"    });",
@@ -692,7 +693,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "462678a4-d738-48a1-afbc-93e95d2a1765",
+				"id": "c11d9202-89b1-4d3f-8521-74810c80bde4",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -702,31 +703,31 @@
 	],
 	"variable": [
 		{
-			"id": "6bc48a6e-3dd7-4812-bac8-8d0e3b87c6e1",
+			"id": "c910f500-4664-4901-a90c-fc86f6b2ee46",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "29570f8e-0c5e-42ca-b7a1-3091f16d9782",
+			"id": "86b4194d-5aee-46ee-92bd-9eda017b5fb2",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "d901aec6-2762-488a-bafb-9c072de452c7",
+			"id": "6733da83-dbb7-406a-8219-5804a7459b8a",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "2fbf6a33-28a0-48ef-9fb0-0ac8f563a4a3",
+			"id": "3f0d9978-6ae9-4b6d-8914-c2bb323a9db5",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "a867a04c-d409-4a9f-ba75-d32358ec34e5",
+			"id": "099a9081-b6cd-4257-af89-9cacc1a9fa4a",
 			"key": "EXPIREDATE",
 			"value": "",
 			"type": "string"
