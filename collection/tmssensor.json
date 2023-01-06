@@ -702,31 +702,31 @@
 	],
 	"variable": [
 		{
-			"id": "132a3e8b-344a-4f1b-a29b-f4ce4c57d2ef",
+			"id": "38f040d0-efc8-47e7-9ac0-83a92abc0f2b",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "efef4c68-69a8-415e-8bed-96b12621e167",
+			"id": "20b3b049-326d-4d97-9adc-2bff2865ba8f",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "0cc8c64e-6220-42a5-8f3a-5ddfa0837624",
+			"id": "93dd2b25-ffd5-4098-9749-9097200e710a",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "bedd01dd-f951-4c35-804b-117536522592",
+			"id": "bf56200f-1f79-4b82-b531-b072d4e1408e",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "85c453f8-0ed4-4a2c-8f77-489f9c0ab294",
+			"id": "c3fbe990-48ab-4076-b0ab-c21ae9c516fa",
 			"key": "EXPIREDATE",
 			"value": "",
 			"type": "string"
