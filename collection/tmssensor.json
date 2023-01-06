@@ -650,16 +650,11 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "8e245010-c1c0-4a92-8909-a878aa9c0dc9",
+				"id": "ed540b1b-0fbf-4d6a-a069-9bf754a9e482",
 				"type": "text/javascript",
 				"exec": [
 					"var moment = require('moment');",
 					"var expireDate = pm.collectionVariables.get('EXPIREDATE');",
-					"",
-					"",
-					"console.log(pm.collectionVariables.get('TOKEN').length)",
-					"console.log(expireDate.length)",
-					"console.log(moment().isAfter(expireDate))",
 					"",
 					"if(pm.collectionVariables.get('TOKEN').length == 0 || expireDate === undefined || expireDate.length == 0 || moment().isAfter(expireDate)) ",
 					"{",
@@ -682,8 +677,6 @@
 					"",
 					"        var now = moment();",
 					"        var expireDate = moment(now).add(jsonResponse.expires_in, 'seconds')",
-					"        console.log(jsonResponse.expires_in)",
-					"        console.log(expireDate)",
 					"        pm.collectionVariables.set('EXPIREDATE', expireDate);",
 					"    });",
 					"}"
@@ -693,7 +686,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "7a167162-3bfd-4c61-b846-3b0837c2a739",
+				"id": "f11c9811-f88e-4eaa-ac2d-3a78aae73eb0",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -703,31 +696,31 @@
 	],
 	"variable": [
 		{
-			"id": "38e2e7d6-07dc-4d6d-8d71-becf015a2416",
+			"id": "02f97c70-5d73-4420-bc00-96faf6744302",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "d4a77de1-8d99-4164-aec4-ef03cc7b63d6",
+			"id": "b331c691-0d1d-4b15-ade6-34c09c31f1fc",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "c010c16a-cd71-4ea0-82cf-ff9013c104ea",
+			"id": "f0fd52de-5867-4997-b29e-df05989671d3",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "5b8bc8ed-f97e-4f22-a4ac-a8696daacd69",
+			"id": "c4a3332e-a524-4e22-a871-14325b9a1eac",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "497b15dc-299a-4bdc-9b73-d2b58cf946d2",
+			"id": "5126d04a-6cdc-4395-8bf9-1cbfa678d059",
 			"key": "EXPIREDATE",
 			"value": "",
 			"type": "string"
