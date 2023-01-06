@@ -650,7 +650,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "88a07a63-fffe-4e39-8eca-99f0c1cb8dad",
+				"id": "dd65e0fc-ff86-4fc2-9c3b-c7fd043de758",
 				"type": "text/javascript",
 				"exec": [
 					"var moment = require('moment');",
@@ -661,7 +661,7 @@
 					"console.log(expireDate.length)",
 					"console.log(moment().isAfter(expireDate))",
 					"",
-					"if(pm.collectionVariables.get('TOKEN').length == 0 || expireDate.length == 0 || moment().isAfter(expireDate)) ",
+					"if(pm.collectionVariables.get('TOKEN').length == 0 || expireDate === undefined || expireDate.length == 0 || moment().isAfter(expireDate)) ",
 					"{",
 					"    var username = pm.collectionVariables.get('USERNAME');",
 					"    var password = pm.collectionVariables.get('PASSWORD');",
@@ -688,7 +688,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "5e8767e9-f46a-40ab-bb91-fefe35a43605",
+				"id": "f8bb7c2f-7d23-4b4d-b3ab-076c5c97574d",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -698,25 +698,25 @@
 	],
 	"variable": [
 		{
-			"id": "23a06490-3823-4393-b98d-c7699f68058d",
+			"id": "5227f36a-3160-4308-8d2f-d0ee20628a21",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "d757fd76-6438-4d79-8b87-ea18d967b325",
+			"id": "e01119b4-db38-41dd-925f-275f9a7a5029",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "4f4ec465-4ba2-4be0-bf0c-3e64e4022b61",
+			"id": "da832d0c-acce-495c-8855-bca9563a2bac",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "ddcf6cfd-d3f4-4042-bf89-9cdf9cca7ec2",
+			"id": "a9357d73-e678-4a8d-acaf-2c6a099d56ce",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
