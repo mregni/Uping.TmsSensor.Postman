@@ -650,7 +650,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "05d8fdd9-8649-42fa-a007-907f65c8fe27",
+				"id": "4ea31577-0d53-41b2-8413-df6399b0859d",
 				"type": "text/javascript",
 				"exec": [
 					"var moment = require('moment');",
@@ -680,8 +680,9 @@
 					"        const jsonResponse = response.json();",
 					"        pm.collectionVariables.set('TOKEN', jsonResponse.access_token);",
 					"",
-					"        console.log(moment())",
-					"        console.log(moment().add(jsonResponse.access_token, 'seconds'))",
+					"        var now = moment();",
+					"        console.log(now)",
+					"        console.log(now.add(jsonResponse.access_token, 'seconds'))",
 					"",
 					"        pm.collectionVariables.set('EXPIREDATE', moment().add(jsonResponse.access_token, 'seconds'));",
 					"    });",
@@ -692,7 +693,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "83a90fdb-7722-4db9-933a-b7b72c0f6599",
+				"id": "91994b6b-8da1-4d99-9200-8bf1c232c519",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -702,31 +703,31 @@
 	],
 	"variable": [
 		{
-			"id": "c19b4a2e-e991-4c87-b1c7-68ab9608f7d5",
+			"id": "fec8f13e-4449-4e55-8ed3-6540fa178394",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "13b4c8fb-5dd3-4ea5-8eb9-60f073ad66a9",
+			"id": "6470515d-78e8-459f-a8a0-fc9ccb091985",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "e7cbed69-d7e9-4f56-a257-c899118ead3d",
+			"id": "f52ef638-231d-4c5b-a788-17cf8fd14f4b",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "2416dc2c-c230-4e11-893c-c76226383cd3",
+			"id": "7c75cf80-c3d0-4327-b486-fd927bff89e8",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "a3284512-c721-440f-b969-a550be105630",
+			"id": "e1512025-c0de-4310-a5b7-24fb615363ee",
 			"key": "EXPIREDATE",
 			"value": "",
 			"type": "string"
