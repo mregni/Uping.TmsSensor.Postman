@@ -650,7 +650,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "263013c8-1434-438d-bf01-2e89ded94107",
+				"id": "05d8fdd9-8649-42fa-a007-907f65c8fe27",
 				"type": "text/javascript",
 				"exec": [
 					"var moment = require('moment');",
@@ -692,7 +692,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "348755eb-c116-4050-94b4-2cd64d6c4126",
+				"id": "83a90fdb-7722-4db9-933a-b7b72c0f6599",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -702,31 +702,31 @@
 	],
 	"variable": [
 		{
-			"id": "48f5eb13-9a80-4d8b-abbb-40fd8fc4bf90",
+			"id": "f61051ab-9fcf-47e5-92aa-14ca6d14136a",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "03a7abc6-a9f6-4d35-afff-0c48f1a66d0f",
+			"id": "e0796e26-d7f4-4841-9772-8718cf535653",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "e48e03c9-533e-44eb-b0db-f0ce9e308dc8",
+			"id": "759a8ecb-88b1-48fa-bd58-ccaa5243bc97",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "fd03ac43-e6e7-4520-b3d7-05f34f743049",
+			"id": "24337eb7-6621-4131-8c1b-f91f51e0ad62",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "9826322d-9088-461c-9db5-335f08ae9cbf",
+			"id": "f48a8d40-bd93-4df9-b712-54eca08a1a0e",
 			"key": "EXPIREDATE",
 			"value": "",
 			"type": "string"
