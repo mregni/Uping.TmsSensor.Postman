@@ -650,17 +650,43 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "389ac5f4-9e38-472e-9dad-7832e8f8412d",
+				"id": "2dc23706-239e-4664-bb66-457c0cf822f4",
 				"type": "text/javascript",
 				"exec": [
-					""
+					"var moment = require('moment');",
+					"var expireDate = pm.collectionVariables.get('EXPIREDATE');",
+					"",
+					"if(pm.collectionVariables.get('TOKEN').length == 0 || expireDate === undefined || expireDate.length == 0 || moment().isAfter(expireDate)) ",
+					"{",
+					"    var username = pm.collectionVariables.get('USERNAME');",
+					"    var password = pm.collectionVariables.get('PASSWORD');",
+					"    var base_url = pm.collectionVariables.get('BASE_URL');",
+					"",
+					"    const getTokenRequest = {",
+					"    method: 'GET',",
+					"    url: base_url+'/Login',",
+					"    header: {",
+					"            'x-username': username,",
+					"            'x-password': password ",
+					"        }",
+					"    };",
+					"",
+					"    pm.sendRequest(getTokenRequest, (err, response) => {",
+					"        const jsonResponse = response.json();",
+					"        pm.collectionVariables.set('TOKEN', jsonResponse.access_token);",
+					"",
+					"        var now = moment();",
+					"        var expireDate = moment(now).add(jsonResponse.expires_in, 'seconds')",
+					"        pm.collectionVariables.set('EXPIREDATE', expireDate);",
+					"    });",
+					"}"
 				]
 			}
 		},
 		{
 			"listen": "test",
 			"script": {
-				"id": "52881e79-3ecd-454d-b5ab-8e36081a2eed",
+				"id": "6507455b-c9b2-422f-bd61-3a1be3727c0e",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -670,31 +696,31 @@
 	],
 	"variable": [
 		{
-			"id": "a5b4393c-3857-4801-85cf-4e646b0072ed",
+			"id": "a8119512-d89a-47dd-a8fc-fc01a5f426e7",
 			"key": "BASE_URL",
 			"value": "https://localhost:7071/api",
 			"type": "string"
 		},
 		{
-			"id": "ddb2cf60-eaa3-4fef-982d-1e3c1f6a3125",
+			"id": "f60faee3-f361-46fc-bd75-95da663039c6",
 			"key": "USERNAME",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "4856f5b3-ecb9-43cb-ae0f-cd313eb7b315",
+			"id": "2c636a09-9102-430f-a8ae-d988a721a9fc",
 			"key": "PASSWORD",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "abf71d87-9264-4dd8-a255-54b6506c8f68",
+			"id": "f2f9fc60-119d-4fc0-8871-5b780d1b0820",
 			"key": "TOKEN",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "eb360801-c6f7-4542-876b-efcb85d62b6f",
+			"id": "b90e5a24-c581-49fd-9cbd-c7acccc160e0",
 			"key": "EXPIREDATE",
 			"value": "",
 			"type": "string"
